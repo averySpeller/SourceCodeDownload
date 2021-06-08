@@ -6,7 +6,7 @@ jwt = subprocess.run(["state", "export", "jwt"], stdout=subprocess.PIPE,text=Tru
 
 url = "https://platform.activestate.com/sv/mediator/api"
 json_query  = { "query": """{
-    project(org: "ActiveStateee", name: "ActivePythonEnterprise-3.8") {
+    project(org: "ActiveState", name: "ActivePython-3.8") {
       __typename
       ... on Project {
         name
